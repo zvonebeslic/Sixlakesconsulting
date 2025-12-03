@@ -1,0 +1,8 @@
+curl -X POST "https://api.indexnow.org/IndexNow"   -H "Content-Type: application/json; charset=utf-8"   -d '{
+    "host": "www.sixlakesconsulting.com",
+    "key": "08eaff2bade348f4be2d4ad1ecd9f2d2",
+    "keyLocation": "https://www.sixlakesconsulting.com/08eaff2bade348f4be2d4ad1ecd9f2d2.txt",
+    "urlList": [
+      "https://www.sixlakesconsulting.com/"
+    ]
+  }'
